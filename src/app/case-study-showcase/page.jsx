@@ -15,27 +15,32 @@ const heroSocialLinks = [
 const showcaseData = [
   {
     title: 'Uber food app <br />case study',
-    imgUrl: '/images/slider_5.jpeg',
+    color : 'black' ,
+    imgUrl: '/images/slider/slider_1.jpg',
     href: '/case-study/case-study-details',
   },
   {
     title: 'Uber food app <br />case study',
-    imgUrl: '/images/slider_6.jpeg',
+    color : 'white' ,
+    imgUrl: '/images/slider/slider_2.jpg',
     href: '/case-study/case-study-details',
   },
   {
     title: 'Uber food app <br />case study',
-    imgUrl: '/images/slider_7.jpeg',
+    color : 'white' ,
+    imgUrl: '/images/slider/slider_3.jpg',
     href: '/case-study/case-study-details',
   },
   {
     title: 'Uber food app <br />case study',
-    imgUrl: '/images/slider_8.jpeg',
+    color : 'white' ,
+    imgUrl: '/images/slider/slider_4.jpg',
     href: '/case-study/case-study-details',
   },
   {
     title: 'Uber food app <br />case study',
-    imgUrl: '/images/slider_9.jpeg',
+    color : 'white' ,
+    imgUrl: '/images/slider/slider_5.jpg',
     href: '/case-study/case-study-details',
   },
 ];
