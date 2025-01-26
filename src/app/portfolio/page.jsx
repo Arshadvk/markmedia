@@ -13,70 +13,56 @@ const portfolioData = [
     title: 'Space Property',
     subtitle: 'Live Link',
     href: 'https://spaceproperties.ae/',
-    src: '/images/work/space.jpg',
+    src: '/images/portfolio/work_1.jpg',
     category: 'web_development',
   },
   {
     title: 'Aravia',
     subtitle: 'Live Link',
     href: 'https://aravia.ae/',
-    src: '/images/work/saloon.jpg',
-    category: 'web_development',
+    src: '/images/portfolio/work_2.jpg',
+    category: 'wedding',
   },
   {
     title: 'P C F',
     subtitle: 'Live Link',
     href: 'https://pcfgcc.com/',
-    src: '/images/work/pdp.jpg',
-    category: 'web_development',
+    src: '/images/portfolio/work_3.jpg',
+    category: 'wedding',
   },
   {
     title: 'Max Office',
     subtitle: 'Live Link',
     href: 'https://www.maxoffice.ae/',
-    src: '/images/work/maxoffice.jpg',
+    src: '/images/portfolio/work_4.jpg' ,
     category: 'web_development',
   },
   {
     title: 'Maxhome property',
     subtitle: 'Live Link',
     href: '/portfolio/portfolio-details',
-    src: '/images/work/maxhome.jpg',
+    src: '/images/portfolio/work_6.jpg' ,
     category: 'web_development',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'Live Link',
     href: '/portfolio/portfolio-details',
-    src: '/images/work/phone.jpg',
+    src: '/images/portfolio/work_7.jpg',
     category: 'mobile_apps',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'Live Link',
     href: '/portfolio/portfolio-details',
-    src: '/images/work/flower shop.jpg',
-    category: 'web_development',
-  },
-  {
-    title: 'Colorful Art Work',
-    subtitle: 'Live Link',
-    href: '/portfolio/portfolio-details',
-    src: '/images/work/amt.jpg',
-    category: 'web_development',
-  },
-  {
-    title: 'Colorful Art Work',
-    subtitle: 'Live Link',
-    href: '/portfolio/portfolio-details',
-    src: '/images/work/caffe.jpg',
+    src: '/images/portfolio/work_5.jpg',
     category: 'web_development',
   },
 ];
 const categoryMenu = [
   {
-    title: 'Web Development',
-    category: 'web_development',
+    title: 'Wedding',
+    category: 'wedding',
   },
   {
     title: 'Mobile Apps',
@@ -89,11 +75,6 @@ export default function PortfolioPage() {
 
   return (
     <>
-      <PageHeading
-        title="Portfolio"
-        bgSrc="/images/portfolio_hero_bg.jpeg"
-        pageLinkText="Portfolio"
-      />
       <Spacing lg="145" md="80" />
       <Div className="container">
         <Div className="cs-portfolio_1_heading">
@@ -163,7 +144,7 @@ export default function PortfolioPage() {
       </Div>
       <Spacing lg="145" md="80" />
       <Cta
-        title="arshadvk7560@gmail.com"
+        title="info@markmedia"
         bgSrc="/images/cta_bg_2.jpeg"
         variant="rounded-0"
       />

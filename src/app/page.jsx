@@ -1,5 +1,6 @@
 'use client'
 import Hero7 from "@/app/ui/Hero/Hero7";
+import Hero2 from "./ui/Hero/Hero2";
 
 const heroSocialLinks = [
   {
@@ -7,8 +8,30 @@ const heroSocialLinks = [
     links: '/',
   },
   {
-    name: 'Twitter',
+    name: 'Instagram',
     links: '/',
+  },
+];
+const heroData = [
+  {
+    title: 'Wedding',
+    imageUrl: '/images/wedding.jpeg',
+    href: '/service/service-details',
+  },
+  {
+    title: 'Fashion',
+    imageUrl: '/images/fashion.jpeg',
+    href: '/service/service-details',
+  },
+  {
+    title: 'Commercial',
+    imageUrl: '/images/commercial.jpeg',
+    href: '/service/service-details',
+  },
+  {
+    title: 'Landscape',
+    imageUrl: '/images/landscape.jpeg',
+    href: '/service/service-details',
   },
 ];
 
@@ -49,6 +72,7 @@ export default function Home() {
 
     return (
       <>
+        
         <Hero7
           heroSocialLinks={heroSocialLinks}
           socialLinksHeading="Follow Us"
