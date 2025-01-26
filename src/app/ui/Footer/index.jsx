@@ -49,7 +49,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
                 <TextWidget
                   logoSrc="/images/markmedia.png"
                   logoAlt="Logo"
-                  text="Welcome to arino sed ut perspiciae omunde omnis iste natus error sitort voluptatem accusantium."
+                  text=""
                 />
                 <SocialWidget />
               </Div>
@@ -68,7 +68,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
               <Div className="cs-footer_item">
                 <Newsletter
                   title="Subscribe"
-                  subtitle="At vero eos et accusamus et iusto odio as part dignissimos ducimus qui blandit."
+                  subtitle=""
                   placeholder="example@gmail.com"
                 />
               </Div>
@@ -80,7 +80,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
         <Div className="cs-bottom_footer">
           <Div className="cs-bottom_footer_left">
             <Div className="cs-copyright">
-              Copyright © {`${date}`} <a href="https://arshadvk.com/">arshadvk.com</a> 
+              Copyright © {`${date}`} <a href="https://markmedia.com/">markmedia.com</a> 
             </Div>
           </Div>
           <Div className="cs-bottom_footer_right">
