@@ -21,9 +21,9 @@ export default function FullScreenVerticalSlider({ data }) {
           slidesPerView={1}
           spaceBetween={0}
           mousewheel={true}
-          pagination={{
-            clickable: true,
-          }}
+          // pagination={{
+          //   clickable: true,
+          // }}
           speed={1000}
           loop={true}
           modules={[Mousewheel, Pagination, Navigation]}
@@ -41,7 +41,7 @@ export default function FullScreenVerticalSlider({ data }) {
                 style={{ backgroundImage: `url(${item.imgUrl})` }}
               >
                 <Div className="cs-hero_text">
-                  <h2 className="cs-hero_title">{parse(item.title)}</h2>
+                  <h2  className="cs-hero_title">{parse(item.title)}</h2>
                   <Link href={item.href} className="cs-btn cs-style1 cs-type1">
                     <span>View Case Study</span>
                   </Link>
