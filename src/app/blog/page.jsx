@@ -44,15 +44,10 @@ const postData = [
 export default function BlogPage() {
   return (
     <>
-      <PageHeading
-        title="Our Blog"
-        bgSrc="/images/blog_hero_bg.jpeg"
-        pageLinkText="Blog"
-      />
       <Spacing lg="150" md="80" />
       <Div className="container">
         <Div className="row">
-          <Div className="col-lg-8">
+          <Div className="col-lg-12">
             {postData.map((item, index) => (
               <Div key={index}>
                 <PostStyle2
@@ -69,10 +64,6 @@ export default function BlogPage() {
             ))}
             <Spacing lg="60" md="40" />
             <Pagination />
-          </Div>
-          <Div className="col-xl-3 col-lg-4 offset-xl-1">
-            <Spacing lg="0" md="80" />
-            <Sidebar />
           </Div>
         </Div>
       </Div>

@@ -15,7 +15,7 @@ export default function Hero2({data, phoneNumber, email}) {
           {data.map((item,index)=> (
             <Div key={index} className={`cs-hero_tab_item cs-hover_tab ${active===index?'active':''}`}>
               <Div className="cs-hero_tab_img cs-bg" style={{backgroundImage: `url(${item.imageUrl})`}} />
-              <h2 onMouseEnter={() => handelActive(index)}><Link href={item.href}>{item.title}</Link></h2>
+              <h2 onMouseEnter={() => handelActive(index)}>{item.title}</h2>
             </Div>
           ))}
         </Div>

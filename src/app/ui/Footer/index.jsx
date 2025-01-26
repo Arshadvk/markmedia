@@ -15,6 +15,10 @@ const copyrightLinks = [
     title: 'Privacy Policy',
     href: '/',
   },
+  {
+    title: 'FAQ',
+    href: '/faq',
+  },
 ];
 
 const serviceMenu = [
