@@ -58,6 +58,27 @@ const portfolioData = [
     src: '/images/portfolio/work_5.jpg',
     category: 'web_development',
   },
+  {
+    title: 'Colorful Art Work',
+    subtitle: 'Live Link',
+    href: '/portfolio/portfolio-details',
+    src: '/images/portfolio/work_8.jpg',
+    category: 'web_development',
+  },
+  {
+    title: 'Colorful Art Work',
+    subtitle: 'Live Link',
+    href: '/portfolio/portfolio-details',
+    src: '/images/portfolio/work_9.jpg',
+    category: 'web_development',
+  },
+  {
+    title: 'Colorful Art Work',
+    subtitle: 'Live Link',
+    href: '/portfolio/portfolio-details',
+    src: '/images/portfolio/work_8.jpg',
+    category: 'web_development',
+  },
 ];
 const categoryMenu = [
   {
