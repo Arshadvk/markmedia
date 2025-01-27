@@ -3,6 +3,9 @@ import React from 'react';
 import Slider from 'react-slick';
 import Div from '../Div';
 import Team from '../Team';
+import SectionHeading from '../SectionHeading';
+import Spacing from '../Spacing';
+import Cta from '../Cta';
 const teamData = [
   {
     memberImage: '/images/member_1.jpeg',
@@ -49,8 +52,41 @@ const teamData = [
     },
   },
   {
+    memberImage: '/images/member_3.jpeg',
+    memberName: 'David Elone',
+    memberDesignation: 'React Developer',
+    memberSocial: {
+      linkedin: '/',
+      twitter: '/',
+      youtube: '/',
+      facebook: '/',
+    },
+  },
+  {
+    memberImage: '/images/member_4.jpeg',
+    memberName: 'Melina Opole',
+    memberDesignation: 'WP Developer',
+    memberSocial: {
+      linkedin: '/',
+      twitter: '/',
+      youtube: '/',
+      facebook: '/',
+    },
+  },
+  {
     memberImage: '/images/member_1.jpeg',
     memberName: 'Melon Bulgery',
+    memberDesignation: 'Product Designer',
+    memberSocial: {
+      linkedin: '/',
+      twitter: '/',
+      youtube: '/',
+      facebook: '/',
+    },
+  },
+  {
+    memberImage: '/images/member_2.jpeg',
+    memberName: 'Olinaz Fushi',
     memberDesignation: 'Product Designer',
     memberSocial: {
       linkedin: '/',
@@ -125,17 +161,36 @@ export default function TeamSlider() {
   };
 
   return (
-    <Slider {...settings} className="cs-gap-24 cs-arrow_style2">
+   
+    <Div className="container">
+    <SectionHeading
+      title="Meet our awesome <br/>team members"
+      subtitle="Our Team"
+      variant="cs-style1 text-center"
+    />
+    <Spacing lg="90" md="45" />
+    <Div className="row">
       {teamData.map((item, index) => (
-        <Div key={index}>
+        <Div key={index} className="col-lg-3 col-sm-6">
           <Team
             memberImage={item.memberImage}
             memberName={item.memberName}
             memberDesignation={item.memberDesignation}
             memberSocial={item.memberSocial}
           />
+          <Spacing lg="80" md="30" />
         </Div>
       ))}
-    </Slider>
+    </Div>
+    <Spacing lg="70" md="50" />
+    <Div className="container">
+      <Cta
+        title="Let’s disscuse make <br />something <i>cool</i> together"
+        btnText="Apply For Meeting"
+        btnLink="/contact"
+        bgSrc="/images/cta_bg.jpeg"
+      />
+    </Div>
+  </Div>
   );
 }

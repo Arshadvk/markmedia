@@ -77,28 +77,6 @@ export default function TestimonialSlider() {
         </Div>
         <Div className="container">
           <Div className="cs-testimonial_slider">
-            <Div className="cs-testimonial_slider_left">
-              <Slider
-                asNavFor={nav1}
-                ref={slider2 => setNav2(slider2)}
-                slidesToShow={3}
-                swipeToSlide={true}
-                focusOnSelect={true}
-                centerMode={true}
-                centerPadding="0px"
-                arrows={false}
-              >
-                {testimonialData.map((item, index) => (
-                  <Div className="slider-nav_item" key={index}>
-                    <Div className="cs-rotate_img">
-                      <Div className="cs-rotate_img_in">
-                        <img src={item.testimonialThumb} alt="Thumb" />
-                      </Div>
-                    </Div>
-                  </Div>
-                ))}
-              </Slider>
-            </Div>
             <Div className="cs-testimonial_slider_right">
               <Slider
                 asNavFor={nav2}

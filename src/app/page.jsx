@@ -9,7 +9,7 @@ const heroSocialLinks = [
   },
   {
     name: 'Instagram',
-    links: '/',
+    links: 'https://www.instagram.com/markmedia.ae/#',
   },
 ];
 const heroData = [

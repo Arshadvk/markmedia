@@ -12,28 +12,28 @@ const portfolioData = [
   {
     title: 'Space Property',
     subtitle: 'Live Link',
-    href: 'https://spaceproperties.ae/',
     src: '/images/portfolio/work_1.jpg',
+    type: 'p' ,
     category: 'web_development',
   },
   {
     title: 'Aravia',
     subtitle: 'Live Link',
-    href: 'https://aravia.ae/',
     src: '/images/portfolio/work_2.jpg',
+    type: 'p' ,
     category: 'wedding',
   },
   {
     title: 'P C F',
     subtitle: 'Live Link',
-    href: 'https://pcfgcc.com/',
     src: '/images/portfolio/work_3.jpg',
+    type: 'p' ,
     category: 'wedding',
   },
   {
     title: 'Max Office',
     subtitle: 'Live Link',
-    href: 'https://www.maxoffice.ae/',
+    type: 'l' ,
     src: '/images/portfolio/work_4.jpg' ,
     category: 'web_development',
   },
@@ -42,6 +42,7 @@ const portfolioData = [
     subtitle: 'Live Link',
     href: '/portfolio/portfolio-details',
     src: '/images/portfolio/work_6.jpg' ,
+    type: 'p' ,
     category: 'web_development',
   },
   {
@@ -49,34 +50,84 @@ const portfolioData = [
     subtitle: 'Live Link',
     href: '/portfolio/portfolio-details',
     src: '/images/portfolio/work_7.jpg',
+    type: 'p' ,
     category: 'mobile_apps',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'Live Link',
-    href: '/portfolio/portfolio-details',
     src: '/images/portfolio/work_5.jpg',
+    type: 'l' ,
     category: 'web_development',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'Live Link',
-    href: '/portfolio/portfolio-details',
+    type: 'p' ,
     src: '/images/portfolio/work_8.jpg',
     category: 'web_development',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'Live Link',
-    href: '/portfolio/portfolio-details',
     src: '/images/portfolio/work_9.jpg',
+    type: 'p' ,
     category: 'web_development',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'Live Link',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio/work_8.jpg',
+    src: '/images/portfolio/work_10.jpg',
+    type: 'p' ,
+    category: 'web_development',
+  },
+  {
+    title: 'Colorful Art Work',
+    subtitle: 'Live Link',
+    src: '/images/portfolio/work_11.jpg',
+    type: 'l' ,
+    category: 'web_development',
+  },
+  {
+    title: 'Colorful Art Work',
+    subtitle: 'Live Link',
+    src: '/images/portfolio/work_12.jpg',
+    type: 'p' ,
+    category: 'web_development',
+  },
+  {
+    title: 'Colorful Art Work',
+    subtitle: 'Live Link',
+    src: '/images/portfolio/work_13.jpg',
+    type: 'p' ,
+    category: 'web_development',
+  },
+  {
+    title: 'Colorful Art Work',
+    subtitle: 'Live Link',
+    src: '/images/portfolio/work_14.jpg',
+    type: 'l' ,
+    category: 'web_development',
+  },
+  {
+    title: 'Colorful Art Work',
+    subtitle: 'Live Link',
+    src: '/images/portfolio/work_15.jpg',
+    type: 'l' ,
+    category: 'web_development',
+  },
+  {
+    title: 'Colorful Art Work',
+    subtitle: 'Live Link',
+    src: '/images/portfolio/work_16.jpg',
+    type: 'p' ,
+    category: 'web_development',
+  },
+  {
+    title: 'Colorful Art Work',
+    subtitle: 'Live Link',
+    src: '/images/portfolio/work_17.jpg',
+    type: 'p' ,
     category: 'web_development',
   },
 ];
@@ -123,7 +174,7 @@ export default function PortfolioPage() {
           {portfolioData.slice(0, itemShow).map((item, index) => (
             <Div
               className={`${
-                index === 3 || index === 6 ? 'col-lg-8' : 'col-lg-4'
+                item.type === 'l' ? 'col-lg-8' : 'col-lg-4'
               } ${
                 active === 'all'
                   ? ''
@@ -154,7 +205,7 @@ export default function PortfolioPage() {
               <Spacing lg="65" md="40" />
               <span
                 className="cs-text_btn"
-                onClick={() => setItemShow(itemShow + 3)}
+                onClick={() => setItemShow(itemShow + 9)}
               >
                 <span>Load More</span>
                 <Icon icon="bi:arrow-right" />
