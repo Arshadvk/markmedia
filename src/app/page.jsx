@@ -49,6 +49,12 @@ const showcaseData = [
     href: '/case-study/case-study-details',
   },
   {
+    title: 'Uber food app <br />case study',
+    color : 'black' ,
+    imgUrl: '/images/slider/slider_18.webp',
+    href: '/case-study/case-study-details',
+  },
+  {
     title: '',
     color : 'white' ,
     imgUrl: '/images/slider/slider_3.webp',
@@ -131,6 +137,13 @@ const showcaseData = [
     imgUrl: '/images/slider/slider_16.webp',
     href: '/case-study/case-study-details',
   },
+  {
+    title: 'Uber food app <br />case study',
+    color : 'black' ,
+    imgUrl: '/images/slider/slider_17.webp',
+    href: '/case-study/case-study-details',
+  },
+ 
 ];
 
 export default function Home() {
