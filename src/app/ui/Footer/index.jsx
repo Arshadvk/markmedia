@@ -23,20 +23,20 @@ const copyrightLinks = [
 
 const serviceMenu = [
   {
-    title: 'UI/UX design',
-    href: '/service/service-details',
+    title: 'About Us',
+    href: '/about',
   },
   {
-    title: 'WP development',
-    href: '/service/service-details',
+    title: 'Services',
+    href: '/service',
   },
   {
-    title: 'Digital marketing',
-    href: '/service/service-details',
+    title: 'Portfolio',
+    href: '/portfolio',
   },
   {
-    title: 'React development',
-    href: '/service/service-details',
+    title: 'Contact Us',
+    href: '/contact',
   },
 ];
 
@@ -60,7 +60,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
             </Div>
             <Div className="col-lg-4 col-sm-6">
               <Div className="cs-footer_item">
-                <MenuWidget menuItems={serviceMenu} menuHeading="Services" />
+                <MenuWidget menuItems={serviceMenu} menuHeading="Pages" />
               </Div>
             </Div>
             <Div className="col-lg-4 col-sm-6">

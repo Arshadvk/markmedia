@@ -8,86 +8,9 @@ import Spacing from '../Spacing';
 import Cta from '../Cta';
 const teamData = [
   {
-    memberImage: '/images/member_1.jpeg',
-    memberName: 'Melon Bulgery',
-    memberDesignation: 'Product Designer',
-    memberSocial: {
-      linkedin: '/',
-      twitter: '/',
-      youtube: '/',
-      facebook: '/',
-    },
-  },
-  {
-    memberImage: '/images/member_2.jpeg',
-    memberName: 'Olinaz Fushi',
-    memberDesignation: 'Product Designer',
-    memberSocial: {
-      linkedin: '/',
-      twitter: '/',
-      youtube: '/',
-      facebook: '/',
-    },
-  },
-  {
-    memberImage: '/images/member_3.jpeg',
-    memberName: 'David Elone',
-    memberDesignation: 'React Developer',
-    memberSocial: {
-      linkedin: '/',
-      twitter: '/',
-      youtube: '/',
-      facebook: '/',
-    },
-  },
-  {
-    memberImage: '/images/member_4.jpeg',
-    memberName: 'Melina Opole',
-    memberDesignation: 'WP Developer',
-    memberSocial: {
-      linkedin: '/',
-      twitter: '/',
-      youtube: '/',
-      facebook: '/',
-    },
-  },
-  {
-    memberImage: '/images/member_3.jpeg',
-    memberName: 'David Elone',
-    memberDesignation: 'React Developer',
-    memberSocial: {
-      linkedin: '/',
-      twitter: '/',
-      youtube: '/',
-      facebook: '/',
-    },
-  },
-  {
-    memberImage: '/images/member_4.jpeg',
-    memberName: 'Melina Opole',
-    memberDesignation: 'WP Developer',
-    memberSocial: {
-      linkedin: '/',
-      twitter: '/',
-      youtube: '/',
-      facebook: '/',
-    },
-  },
-  {
-    memberImage: '/images/member_1.jpeg',
-    memberName: 'Melon Bulgery',
-    memberDesignation: 'Product Designer',
-    memberSocial: {
-      linkedin: '/',
-      twitter: '/',
-      youtube: '/',
-      facebook: '/',
-    },
-  },
-  {
-    memberImage: '/images/member_2.jpeg',
-    memberName: 'Olinaz Fushi',
-    memberDesignation: 'Product Designer',
+    memberImage: '/images/team/team_2.jpg',
+    memberName: 'Sabir',
+    memberDesignation: 'CEO',
     memberSocial: {
       linkedin: '/',
       twitter: '/',
@@ -181,15 +104,6 @@ export default function TeamSlider() {
           <Spacing lg="80" md="30" />
         </Div>
       ))}
-    </Div>
-    <Spacing lg="70" md="50" />
-    <Div className="container">
-      <Cta
-        title="Let’s disscuse make <br />something <i>cool</i> together"
-        btnText="Apply For Meeting"
-        btnLink="/contact"
-        bgSrc="/images/cta_bg.jpeg"
-      />
     </Div>
   </Div>
   );
