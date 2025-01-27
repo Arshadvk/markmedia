@@ -11,6 +11,8 @@ import aboutImg from '../../../public/images/about_img_1.jpeg'
 import aboutImg2 from '../../../public/images/about_img_2.jpeg'
 import aboutImg3 from '../../../public/images/about_img_3.jpeg'
 import aboutImg4 from '../../../public/images/about_img_4.jpeg'
+import Team from "../ui/Team";
+
 
 
 
@@ -145,16 +147,11 @@ export default function AboutPage() {
 
       {/* Start Team Section */}
       <Spacing lg="145" md="80" />
-      <Div className="container">
-        <SectionHeading
-          title="Awesome team <br/>members"
-          subtitle="Our Team"
-          variant="cs-style1"
-        />
-        <Spacing lg="85" md="45" />
+      
         <TeamSlider />
-      </Div>
+      
       {/* End Team Section */}
+
 
       {/* Start CTA Section */}
       <Spacing lg="150" md="80" />

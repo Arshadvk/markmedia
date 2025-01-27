@@ -48,7 +48,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
       <Div className="cs-fooer_main">
         <Div className="container">
           <Div className="row">
-            <Div className="col-lg-3 col-sm-6">
+            <Div className="col-lg-4 col-sm-6">
               <Div className="cs-footer_item">
                 <TextWidget
                   logoSrc="/images/markmedia.png"
@@ -58,23 +58,14 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
                 <SocialWidget />
               </Div>
             </Div>
-            <Div className="col-lg-3 col-sm-6">
+            <Div className="col-lg-4 col-sm-6">
               <Div className="cs-footer_item">
                 <MenuWidget menuItems={serviceMenu} menuHeading="Services" />
               </Div>
             </Div>
-            <Div className="col-lg-3 col-sm-6">
+            <Div className="col-lg-4 col-sm-6">
               <Div className="cs-footer_item">
                 <ContactInfoWidget title="Contact Us" />
-              </Div>
-            </Div>
-            <Div className="col-lg-3 col-sm-6">
-              <Div className="cs-footer_item">
-                <Newsletter
-                  title="Subscribe"
-                  subtitle=""
-                  placeholder="example@gmail.com"
-                />
               </Div>
             </Div>
           </Div>
