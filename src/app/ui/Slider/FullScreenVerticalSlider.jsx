@@ -1,12 +1,28 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Mousewheel, Pagination, Navigation } from 'swiper';
 import { Icon } from '@iconify/react';
-import parse from 'html-react-parser';
 import Div from '../Div';
-import Link from 'next/link';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
-export default function FullScreenVerticalSlider({ data }) {
+export default function FullScreenVerticalSlider({ data = [] }) {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true); // Only render on the client
+  }, []);
+
+  if (!isClient) {
+    return null; // Avoid rendering on the server
+  }
+
+  if (!data || !Array.isArray(data) || data.length === 0) {
+    console.error("The 'data' prop is missing or invalid.");
+    return <p>No slides available.</p>;
+  }
+
   return (
     <>
       <Div className="cs-vertical_slider cs-swiper_arrow_style_1">
@@ -21,9 +37,6 @@ export default function FullScreenVerticalSlider({ data }) {
           slidesPerView={1}
           spaceBetween={0}
           mousewheel={true}
-          // pagination={{
-          //   clickable: true,
-          // }}
           speed={1000}
           loop={true}
           modules={[Mousewheel, Pagination, Navigation]}
@@ -33,20 +46,25 @@ export default function FullScreenVerticalSlider({ data }) {
             prevEl: '.image-swiper-button-prev',
             disabledClass: 'swiper-button-disabled',
           }}
+          breakpoints={{
+            0: {
+              slidesPerView: 3, // Adjust this for mobile responsiveness
+            },
+            768: {
+              slidesPerView: 1,
+            },
+          }}
         >
           {data.map((item, index) => (
             <SwiperSlide key={index}>
               <Div
                 className="cs-hero cs-style5 cs-bg"
-                style={{ backgroundImage: `url(${item.imgUrl})` }}
-              >
-                <Div className="cs-hero_text">
-                  <h2  className="cs-hero_title">{parse(item.title)}</h2>
-                  <Link href={item.href} className="cs-btn cs-style1 cs-type1">
-                    <span>View Case Study</span>
-                  </Link>
-                </Div>
-              </Div>
+                style={{
+                  backgroundImage: `url(${item.imgUrl})`,
+                  width: '100%',
+                  height: '100%',
+                }}
+              ></Div>
             </SwiperSlide>
           ))}
         </Swiper>
@@ -54,3 +72,4 @@ export default function FullScreenVerticalSlider({ data }) {
     </>
   );
 }
+

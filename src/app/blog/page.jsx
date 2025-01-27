@@ -2,10 +2,7 @@
 
 import Cta from "@/app/ui/Cta";
 import Div from "@/app/ui/Div";
-import PageHeading from "@/app/ui/PageHeading";
-import Pagination from "@/app/ui/Pagination";
 import PostStyle2 from "@/app/ui/Post/PostStyle2";
-import Sidebar from "@/app/ui/Sidebar.jsx/index.jsx";
 import Spacing from "@/app/ui/Spacing";
 
 const postData = [
@@ -63,7 +60,7 @@ export default function BlogPage() {
               </Div>
             ))}
             <Spacing lg="60" md="40" />
-            <Pagination />
+           
           </Div>
         </Div>
       </Div>

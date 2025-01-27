@@ -39,6 +39,24 @@ const showcaseData = [
   {
     title: 'Uber food app <br />case study',
     color : 'black' ,
+    imgUrl: '/images/slider/slider_6.jpg',
+    href: '/case-study/case-study-details',
+  },
+  {
+    title: 'Uber food app <br />case study',
+    color : 'black' ,
+    imgUrl: '/images/slider/slider_7.jpg',
+    href: '/case-study/case-study-details',
+  }, 
+  {
+    title: 'Uber food app <br />case study',
+    color : 'black' ,
+    imgUrl: '/images/slider/slider_8.jpg',
+    href: '/case-study/case-study-details',
+  },
+  {
+    title: 'Uber food app <br />case study',
+    color : 'black' ,
     imgUrl: '/images/slider/slider_1.jpg',
     href: '/case-study/case-study-details',
   },
@@ -49,7 +67,7 @@ const showcaseData = [
     href: '/case-study/case-study-details',
   },
   {
-    title: 'Uber food app <br />case study',
+    title: '',
     color : 'white' ,
     imgUrl: '/images/slider/slider_3.jpg',
     href: '/case-study/case-study-details',

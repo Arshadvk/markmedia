@@ -9,11 +9,6 @@ import { Icon } from "@iconify/react";
 export default function ContactPage() {
   return (
     <>
-      <PageHeading
-        title="Contact Us"
-        bgSrc="/images/contact_hero_bg.jpeg"
-        pageLinkText="Contact"
-      />
       <Spacing lg="150" md="80" />
       <Div className="container">
         <Div className="row">
