@@ -143,7 +143,6 @@ const showcaseData = [
     imgUrl: '/images/slider/slider_17.webp',
     href: '/case-study/case-study-details',
   },
- 
 ];
 
 export default function Home() {
