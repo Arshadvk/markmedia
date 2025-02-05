@@ -8,35 +8,20 @@ const testimonialData = [
   {
     testimonialThumb: '/images/testimonial_1.jpeg',
     testimonialText:
-      'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-    avatarName: 'Ahon Monsery',
-    avatarDesignation: 'CEO AT TECH',
-    ratings: '4',
+      'Mark Media’s team is simply outstanding! Their photography and videography skills are top-notch, capturing every moment with stunning detail and creativity. The editing team adds the perfect final touch, ensuring a polished and cinematic result. Highly recommend them for any event or business needs!',
+    avatarName: 'Arshad Vk',
+    avatarDesignation: 'CEO AT VOID',
+    ratings: '5',
   },
   {
     testimonialThumb: '/images/testimonial_2.jpeg',
     testimonialText:
-      'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-    avatarName: 'Ahon Monsery',
-    avatarDesignation: 'CEO AT TECH',
+      'We hired Mark Media for a corporate shoot, and they exceeded our expectations. The photographers and videographers were professional, punctual, and knew exactly how to bring out the best in every shot. The editing was seamless, delivering high-quality visuals that truly impressed our audience.',
+    avatarName: 'Ansar Anzy',
+    avatarDesignation: 'MD AT MAXHOME',
     ratings: '5',
   },
-  {
-    testimonialThumb: '/images/testimonial_3.jpeg',
-    testimonialText:
-      'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-    avatarName: 'Ahon Monsery',
-    avatarDesignation: 'CEO AT TECH',
-    ratings: '4.5',
-  },
-  {
-    testimonialThumb: '/images/testimonial_1.jpeg',
-    testimonialText:
-      'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-    avatarName: 'Ahon Monsery',
-    avatarDesignation: 'CEO AT TECH',
-    ratings: '3.5',
-  },
+
 ];
 
 export default function TestimonialSliderStyle2() {
