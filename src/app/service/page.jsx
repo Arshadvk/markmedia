@@ -23,22 +23,22 @@ const heroSocialLinks = [
 const heroData = [
   {
     title: 'Wedding',
-    imageUrl: '/images/service/wedding.jpg',
+    imageUrl: '/images/service/wedding.webp',
     href: '/service/service-details',
   },
   {
     title: 'Fashion',
-    imageUrl: '/images/service/fashion.jpg',
+    imageUrl: '/images/service/fashion.webp',
     href: '/service/service-details',
   },
   {
     title: 'Commercial',
-    imageUrl: '/images/service/commercial.jpg',
+    imageUrl: '/images/service/commercial.webp',
     href: '/service/service-details',
   },
   {
     title: 'Landscape',
-    imageUrl: '/images/service/landscape.jpg',
+    imageUrl: '/images/service/landscape.webp',
     href: '/service/service-details',
   },
 ];
