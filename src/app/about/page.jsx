@@ -39,7 +39,7 @@ export default function AboutPage() {
         <Div className="row">
           <Div className="col-xl-5 col-lg-7">
             <SectionHeading
-              title="UAE based photography & videography agency"
+              title="GCC based photography & videography agency"
               subtitle="About MarkMedia"
             >
               <Spacing lg="30" md="20" />
